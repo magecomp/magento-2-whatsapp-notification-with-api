@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Backend/etc/system_file.xsd">
+    <system>
+		<section id="whatsappbasic">
+				<group id="smsgatways">
+					<field id="whatsappapitoken" type="text" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
+						<label>Authentication Token</label>
+						<depends><field id="gateway">whatsappapi</field></depends>
+						<validate>required-entry</validate>
+					</field>
+					<field id="whatsappapiurl" type="text" sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="1">
+						<label>API URL</label>
+						<comment><![CDATA[http://whatsapp.magecomp.com/api]]></comment>
+						<depends><field id="gateway">whatsappapi</field></depends>
+						<validate>required-entry validate-url</validate>
+					</field>
+				</group>
+		</section>
+    </system>
+</config>
