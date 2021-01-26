@@ -3,7 +3,7 @@
     <default>
         <whatsappbasic>
         	<smsgatways>
-        		<whatsappapiurl>http://whatsapp.magecomp.com/api</whatsappapiurl>
+        		<whatsappapiurl>http://wa.magecomp.com/api/send.php</whatsappapiurl>
         	</smsgatways>
         </whatsappbasic>
     </default>

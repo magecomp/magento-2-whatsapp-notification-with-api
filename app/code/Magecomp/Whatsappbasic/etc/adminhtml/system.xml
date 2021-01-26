@@ -8,9 +8,16 @@
 			 <tab>magecomp</tab>
              <label>WhatsApp Order Notification</label>
           	 <resource>Magecomp_Whatsappbasic::whatsappbasic</resource>
-			 <group id="moduleoption" showInDefault="1" sortOrder="10">
+            <group id="versionpaid" showInDefault="1" sortOrder="10">
+                <label>Upgrade to WhatsApp Order Notification Pro</label>
+                <field id="versionpaidfield" translate="label" sortOrder="4" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <frontend_model>Magecomp\Whatsappbasic\Block\Adminhtml\Collect</frontend_model>
+                    <backend_model>Magento\Config\Model\Config\Backend\Serialized\ArraySerialized</backend_model>
+                </field>
+            </group>
+             <group id="moduleoption" showInDefault="1" sortOrder="10">
 					<label>Configuration</label>
-					<field id="enable" type="select" showInDefault="1" sortOrder="0" showInWebsite="1" showInStore="1">
+                 	<field id="enable" type="select" showInDefault="1" sortOrder="0" showInWebsite="1" showInStore="1">
 						<label>WhatsApp Order Notification</label>
 						<source_model>Magento\Config\Model\Config\Source\Enabledisable</source_model>
 					 </field>
@@ -21,22 +28,23 @@
 					<label>WhatsApp Gateway</label>
 					<source_model>Magecomp\Whatsappbasic\Model\Config\Gateways</source_model>
 					<config_path>whatsappbasic/smsgatways/gateway</config_path>
+                    <comment><![CDATA[To Use Custom WhatsApp API <a href="http://wa.magecomp.com/register.php" target="_blank">Register here</a> </br> To Use Twilio API <a href="https://www.twilio.com/referral/0f5bm6" target="_blank"> Register Here </a>]]></comment>
 				</field>
 			 </group>
 			 <group id="orderplace" showInDefault="1" sortOrder="30">
-				 <label>Order Placement Notification Settings</label>
+				 <label>Order Place Notification</label>
 				 <field id="enable" type="select" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
 					 <label>Enable</label>
 					 <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
 				 </field>
 				 <field id="template" type="textarea" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
-					 <label>Order Placement Notification Text</label>
+					 <label>Order Place Notification Text</label>
 					 <depends><field id="enable">1</field></depends>
-					 <comment><![CDATA[<b>Variables : </b>{{var mobilenumber}},{{var order_total}} <br /> <b>Objects : </b>order,customer]]></comment>
+					 <comment><![CDATA[<b>Variables : </b>{{var mobilenumber}},{{var order_total}} <a target="_blank" href="https://magecomp.com/support/docs/magento-2-whatsapp-order-notification-extension/chat-message-variables-objects-list/">All Variables</a> <br /> <b>Objects : </b>order,customer]]></comment>
 				 </field>
 			 </group>
 			<group id="shipment" showInDefault="1" sortOrder="40">
-					<label>Shipment Notification Settings</label>
+					<label>Shipment Notification</label>
 					<field id="enable" type="select" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
 						<label>Enable</label>
 						<source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
@@ -44,7 +52,7 @@
 				   <field id="template" type="textarea" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
 						<label>Shipment Notification Text</label>
 					   	<depends><field id="enable">1</field></depends>
-						<comment><![CDATA[<b>Variables : </b>{{var mobilenumber}} <br /> <b>Objects : </b>shipment,order,customer  <b>Customer Object will not send data for Guest Customer.</b>]]></comment>
+						<comment><![CDATA[<b>Variables : </b>{{var mobilenumber}}  <a target="_blank" href="https://magecomp.com/support/docs/magento-2-whatsapp-order-notification-extension/chat-message-variables-objects-list/">All Variables</a><br /> <b>Objects : </b>shipment,order,customer <b>Customer Object will not send data for Guest Customer.</b>]]></comment>
 				   </field>
 			</group>
 		 </section>

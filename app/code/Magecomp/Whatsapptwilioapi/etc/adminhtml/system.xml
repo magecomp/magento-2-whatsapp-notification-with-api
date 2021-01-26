@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Backend/etc/system_file.xsd">
+    <system>
+		<section id="whatsappbasic">
+				<group id="smsgatways">
+					<field id="twilionote" type="label" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+						<label>NOTE</label>
+						<comment><![CDATA[<strong>Run 'composer require twilio/sdk' from CLI to use Twilio.</strong>]]></comment>
+						<depends><field id="gateway">whatsapptwilio</field></depends>
+					</field>
+					<field id="twiliosid" type="text" sortOrder="20" showInDefault="1" showInWebsite="1" showInStore="1">
+						<label>Twilio Account SID</label>
+						<comment><![CDATA[Your Account SID from Twilio]]></comment>
+						<validate>required-entry</validate>
+						<depends><field id="gateway">whatsapptwilio</field></depends>
+					</field>
+					<field id="twiliotoken" type="password" sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="1">
+						<label>Twilio Auth Token</label>
+						<comment><![CDATA[Your Auth Token from Twilio]]></comment>
+						<validate>required-entry</validate>
+						<depends><field id="gateway">whatsapptwilio</field></depends>
+					</field>
+					<field id="twilionumber" type="text" sortOrder="40" showInDefault="1" showInWebsite="1" showInStore="1">
+						<label>Twilio Mobile Number</label>
+						<comment><![CDATA[Phone number you purchased at Twilio]]></comment>
+						<validate>required-entry validate-number</validate>
+						<depends><field id="gateway">whatsapptwilio</field></depends>
+					</field>
+				</group>
+		</section>
+    </system>
+</config>

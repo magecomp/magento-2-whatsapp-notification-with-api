@@ -1,0 +1,70 @@
+<?php
+define('BUILD_VERSION', '1.0.1');
+define('DEBUG_MODE', false); // DEBUG
+define('PHONE_INPUT_ELEMENT', 'input[name="mobilenumber"]');
+?>
+
+<?php if (DEBUG_MODE) : ?>
+
+    <pre>
+                DetectByIp: <?php echo $this->getDetectByIp(); ?>
+                <br />
+                ValidatePhone: <?php echo $this->getValidatePhone(); ?>
+                <br />
+                CurrentIP: <?php print_r($this->getCustomerIPDetails()); ?>
+    </pre>
+
+<?php endif; ?>
+
+<script type="text/javascript">
+    var int_phone_input_element = '<?php echo PHONE_INPUT_ELEMENT; ?>';</script>
+
+<script>
+
+    require([
+            'jquery',
+            'Magecomp_Wappcountryflag/js/intlTelInput.min'
+        ],
+        function() {
+            var checkPhoneInputExist = setInterval(function () {
+                if (jQuery(int_phone_input_element).length) {
+
+                    // let's wait until input appear
+                    jQuery(int_phone_input_element).intlTelInput({
+
+                        <?php
+                        if ($this->getDetectByIp()):
+                        $customerIpDetails = $this->getCustomerIPDetails();
+                        ?>
+                        initialCountry: "<?php echo strtolower($customerIpDetails->geoplugin_countryCode); ?>",
+                        <?php
+                        else:
+                        $country = $this->getDefualtCountry();
+
+                        ?>
+                        initialCountry: "<?php echo strtolower($country); ?>",
+                        <?php endif; ?>
+                        <?php
+                        if ($this->getValidatePhone()):
+                        ?>
+                        utilsScript: "<?php echo $block->getViewFileUrl("Magecomp_Wappcountryflag::js/utils.js"); ?>",
+                        <?php endif; ?>
+
+                        nationalMode: true
+                    });
+                    <?php if(!$this->getDetectByIp()) : ?>
+                    jQuery(int_phone_input_element).val("<?php echo $this->getDefaultCountryCodeNumber(); ?>");
+                    <?php else : ?>
+                    jQuery(int_phone_input_element).val(jQuery(".country.active").attr('data-dial-code'));
+                    <?php endif; ?>
+                    jQuery(int_phone_input_element).focus(function(){
+                        var str = jQuery(".selected-flag").attr("title");
+                        jQuery(int_phone_input_element).val(str.split('+')[1]);
+                    });
+                    clearInterval(checkPhoneInputExist);
+                }
+            }, 100); // check every 100ms
+
+        }
+    );
+</script>

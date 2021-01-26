@@ -1,11 +1,11 @@
 {
-    "name": "magecomp/magento-2-whatsapp-order-notification",
-    "description": "Magecomp WhatsApp Basic Extension",
+    "name": "magecomp/module-whatsapptwilioapi",
+    "description": "Magecomp Whatsapp Twilio API Extension",
     "require": {
         "php": "~5.5.0|~5.6.0|~7.0.0|~7.1.0|~7.2.0|~7.3.0|~7.4.0"
     },
     "type": "magento2-module",
-    "version": "1.0.3",
+    "version": "1.0.0",
     "license": [
         "Commercial"
     ],
@@ -21,7 +21,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "Magecomp\\Whatsappbasic\\": ""
+            "Magecomp\\Whatsapptwilioapi\\": ""
         }
     }
 }
