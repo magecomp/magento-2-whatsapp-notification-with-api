@@ -164,5 +164,23 @@ Email: [support@magecomp.com](mailto:support@magecomp.com)
 
 ## Magento Marketplace Extensions By MageComp
 
+[City & Region Manager](https://marketplace.magento.com/magecomp-magento-2-city-and-region-manager.html)
 
+[Mobile Login with Email Optional](https://marketplace.magento.com/magecomp-magento-2-mobile-login-email-optional.html)
+
+[Download Invoice PDF](https://marketplace.magento.com/magecomp-magento-2-download-invoice-pdf.html)
+
+[Custom Order Number](https://marketplace.magento.com/magecomp-magento-2-custom-order-number.html)
+
+[Newsletter Popup](https://marketplace.magento.com/magecomp-magento-2-newsletter-popup.html)
+
+[SMS Notification (Basic)](https://marketplace.magento.com/magecomp-magento-2-sms-notification-free.html)
+
+[Chat Integration](https://marketplace.magento.com/magecomp-magento-2-chat-integration.html)
+
+[Global Payments Payment Gateway](https://marketplace.magento.com/magecomp-magento-2-edge-express-payment-gateway.html)
+
+[EBS Payment](https://marketplace.magento.com/magecomp-magento-2-ebs-payment.html)
+
+[Google One Tap Login](https://marketplace.magento.com/magecomp-magento-2-google-one-tap-login.html)
 
