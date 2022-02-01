@@ -164,23 +164,23 @@ Email: [support@magecomp.com](mailto:support@magecomp.com)
 
 ## Magento Marketplace Extensions By MageComp
 
-[City & Region Manager](https://marketplace.magento.com/magecomp-magento-2-city-and-region-manager.html)
+[Magento 2 City & Region Manager](https://marketplace.magento.com/magecomp-magento-2-city-and-region-manager.html)
 
-[Mobile Login with Email Optional](https://marketplace.magento.com/magecomp-magento-2-mobile-login-email-optional.html)
+[Magento 2 Mobile Login with Email Optional](https://marketplace.magento.com/magecomp-magento-2-mobile-login-email-optional.html)
 
-[Download Invoice PDF](https://marketplace.magento.com/magecomp-magento-2-download-invoice-pdf.html)
+[Magento 2 Download Invoice PDF](https://marketplace.magento.com/magecomp-magento-2-download-invoice-pdf.html)
 
-[Custom Order Number](https://marketplace.magento.com/magecomp-magento-2-custom-order-number.html)
+[Magento 2 Custom Order Number](https://marketplace.magento.com/magecomp-magento-2-custom-order-number.html)
 
-[Newsletter Popup](https://marketplace.magento.com/magecomp-magento-2-newsletter-popup.html)
+[Magento 2 Newsletter Popup](https://marketplace.magento.com/magecomp-magento-2-newsletter-popup.html)
 
-[SMS Notification (Basic)](https://marketplace.magento.com/magecomp-magento-2-sms-notification-free.html)
+[Magento 2 SMS Notification (Basic)](https://marketplace.magento.com/magecomp-magento-2-sms-notification-free.html)
 
-[Chat Integration](https://marketplace.magento.com/magecomp-magento-2-chat-integration.html)
+[Magento 2 Chat Integration](https://marketplace.magento.com/magecomp-magento-2-chat-integration.html)
 
-[Global Payments Payment Gateway](https://marketplace.magento.com/magecomp-magento-2-edge-express-payment-gateway.html)
+[Magento 2 Global Payments Payment Gateway](https://marketplace.magento.com/magecomp-magento-2-edge-express-payment-gateway.html)
 
-[EBS Payment](https://marketplace.magento.com/magecomp-magento-2-ebs-payment.html)
+[Magento 2 EBS Payment](https://marketplace.magento.com/magecomp-magento-2-ebs-payment.html)
 
-[Google One Tap Login](https://marketplace.magento.com/magecomp-magento-2-google-one-tap-login.html)
+[Magento 2 Google One Tap Login](https://marketplace.magento.com/magecomp-magento-2-google-one-tap-login.html)
 
