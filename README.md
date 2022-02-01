@@ -58,30 +58,30 @@ To get your WhatsApp API key login to [MageComp WhatApp API Dashboard.](https://
 
 **2. API Gateway**
 
-Whatsapp API: Choose your Whatsapp API from this field.
-Twilio Account SID: Enter your Twilio Account SID here.
-Twilio Auth Token: Enter your Twilio Auth Taken here.
-Twilio Mobile Number: Enter your Twilio Mobile Number here.
+**Whatsapp API:** Choose your Whatsapp API from this field. <br/>
+**Twilio Account SID:** Enter your Twilio Account SID here. <br/>
+**Twilio Auth Token:** Enter your Twilio Auth Taken here. <br/>
+**Twilio Mobile Number:** Enter your Twilio Mobile Number here. <br/>
 
 ![config](https://magecomp.com/media/catalog/product/cache/19b10369fecc27f1a40729d1b5b60dea/w/h/whatsapp_notification_twilio_api_configuration_2_2.webp)
 
 **3. General Section**
 
-Default Country: Set your default country in this field.
+**Default Country:** Set your default country in this field.
 
 ![config](https://magecomp.com/media/catalog/product/cache/19b10369fecc27f1a40729d1b5b60dea/2/_/2_general_section_for_pro_1.webp)
 
 **4. Sign Up Notification**
 
-Notification: Set YES to enable notification to users for their sign-ups. <br/>
-Notification Text: Enter notification text to send your users while they sign up.<br/>
+**Notification:** Set YES to enable notification to users for their sign-ups. <br/>
+**Notification Text:** Enter notification text to send your users while they sign up.<br/>
 
 ![config](https://magecomp.com/media/catalog/product/cache/19b10369fecc27f1a40729d1b5b60dea/w/h/whatsapp_notification_usertemplates_pro_version_3.webp)
 
 **5. Order placement Notification Settings**
 
-Enable: Enable notification from here<br/>
-Order placement Notification Text: Enter WhatsApp Message that you want to receive on your WhatsApp Number.<br/>
+**Enable:** Enable notification from here<br/>
+**Order placement Notification Text:** Enter WhatsApp Message that you want to receive on your WhatsApp Number.<br/>
 
 ![config](https://magecomp.com/media/catalog/product/cache/19b10369fecc27f1a40729d1b5b60dea/w/h/whatsapp_notification_usertemplates_basic_version_2.webp)
 
