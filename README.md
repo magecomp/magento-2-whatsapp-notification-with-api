@@ -73,28 +73,28 @@ Default Country: Set your default country in this field.
 
 **4. Sign Up Notification**
 
-Notification: Set YES to enable notification to users for their sign-ups.
-Notification Text: Enter notification text to send your users while they sign up.
+Notification: Set YES to enable notification to users for their sign-ups. <br/>
+Notification Text: Enter notification text to send your users while they sign up.<br/>
 
 ![config](https://magecomp.com/media/catalog/product/cache/19b10369fecc27f1a40729d1b5b60dea/w/h/whatsapp_notification_usertemplates_pro_version_3.webp)
 
 **5. Order placement Notification Settings**
 
-Enable: Enable notification from here
-Order placement Notification Text: Enter WhatsApp Message that you want to receive on your WhatsApp Number.
+Enable: Enable notification from here<br/>
+Order placement Notification Text: Enter WhatsApp Message that you want to receive on your WhatsApp Number.<br/>
 
 ![config](https://magecomp.com/media/catalog/product/cache/19b10369fecc27f1a40729d1b5b60dea/w/h/whatsapp_notification_usertemplates_basic_version_2.webp)
 
 **6. Admin Templates**
 
-**Generals**
+**Generals**<br/>
 
-**Admin Whatsapp Number:** Enter admin number to receive store updates.
+**Admin Whatsapp Number:** Enter admin number to receive store updates.<br/>
 
-**Signup Notification
-**
-**Notification:** Set YES to enable notification for admin when any user sign-ups to store.
-**Notification Text:** Enter WhatsApp notification text to send admin when users register to the website.
+**Signup Notification** <br/>
+
+**Notification:** Set YES to enable notification for admin when any user sign-ups to store. <br/>
+**Notification Text:** Enter WhatsApp notification text to send admin when users register to the website. <br/>
 
 ![config](https://magecomp.com/media/catalog/product/cache/19b10369fecc27f1a40729d1b5b60dea/w/h/whatsapp_notification_admintemplates_pro_version_2.webp)
 
